@@ -62,18 +62,18 @@ input.search {
 
 .suggestions li:nth-child(even) {
     transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
-    background: linear-gradient(to bottom, #4e5965 0%, #708090 100%);
+    background: linear-gradient(to bottom, #596673 0%, #708090 100%);
 }
 
 .suggestions li:nth-child(odd) {
     transform: perspective(100px) rotateX(-3deg) translateY(3px);
-    background: linear-gradient(to top, #4e5965 0%, #708090 100%);
+    background: linear-gradient(to top, #596673 0%, #708090 100%);
 }
 
 span.population {
     font-size: 15px;
 }
 
-.h1 {
+.hl {
     background: #455874;
 }
