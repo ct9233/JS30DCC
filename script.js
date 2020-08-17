@@ -2,7 +2,7 @@ const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
 
 let lastChecked;
 
-function handleCheck() {
+function handleCheck(e) {
     let inBetween = false;
     // Check if Shift key down
     // AND check if box is being checked
@@ -15,11 +15,10 @@ function handleCheck() {
             if(inBetween) {
                 checkbox.checked = true;
             }
-        })
+        });
     }
     
     lastChecked = this;
 }
 
-checkboxes.forEach(checkbox => checkbox.addEventListener('
-    click', handleCheck));
+checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
