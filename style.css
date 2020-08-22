@@ -38,7 +38,7 @@ h1 {
 
 .slide-in {
     opacity: 0;
-    transition: all 5s;
+    transition: all 0.5s;
 }
 
 .align-left.slide-in {
@@ -51,5 +51,5 @@ h1 {
 
 .slide-in.active {
     opacity: 1;
-    transform: translateX(0%) scale 1;
+    transform: translateX(0%) scale(1);
 }
