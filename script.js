@@ -13,3 +13,11 @@ const bands = [
 	'Anywhere But Here',
 	'An Old Dog',
 ];
+
+function strip(bandName) {
+	return bandName.replace(/^(a |the |an )/i, '').trim();
+}
+
+const alphaBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
+
+document.querySelector('#bands').innerHTML = alphaBands.map(band => `<li>${band}</li>`).join('');
