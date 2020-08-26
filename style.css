@@ -1,0 +1,13 @@
+* {
+    background-color: #4c566b;
+    font-family: sans-serif;
+}
+
+.videos {
+    list-style: none;
+}
+
+.videos li {
+    margin-left: 50px;
+    padding: 5px;
+}
