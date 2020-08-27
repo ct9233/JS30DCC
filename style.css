@@ -1,13 +1,32 @@
-* {
+html {
+    box-sizing: border-box;
     background-color: #4c566b;
-    font-family: sans-serif;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
 }
 
 .videos {
     list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 .videos li {
-    margin-left: 50px;
+    background-color: darkslateblue;
     padding: 5px;
+    margin: 10px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
 }
