@@ -74,19 +74,28 @@ input[type="select"] {
 
 .voice-synth button {
     cursor: pointer;
-    background: #4c556d;
+    background: #363d4e;
+    color: #d458ca;
     border: 0;
     width: 49%;
     float: left;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
     margin-bottom: 0;
     font-size: 2rem;
     border-bottom: 5px solid #f3c8;
+    border-right: 3px solid #f3c8;
     position: relative;
 }
 
 .voice-synth button:active {
     top: 2px;
+    color: grey;
+    border-bottom: 1px solid #f3c8;
+    border-right: 1px solid #f3c8;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
 }
 
 .voice-synth button:nth-of-type(1) {
