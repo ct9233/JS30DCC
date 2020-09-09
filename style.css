@@ -21,6 +21,17 @@ h1 {
     border-radius: 1rem;
 }
 
+button {
+    background: rgb(163, 16, 168);
+    color: black;
+    font-size: 2rem;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
 .score {
     background: rgba(0, 0, 0, 0.2);
     padding: 0 3rem;
